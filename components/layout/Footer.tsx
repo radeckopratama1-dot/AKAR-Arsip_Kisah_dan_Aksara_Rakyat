@@ -26,7 +26,7 @@ export function Footer() {
                   AKAR
                 </span>
                 <span className="text-xs text-[#EAE4D3] mt-1">
-                  Arsip Kisah, Aksara, dan Ragam Budaya
+                  Arsip Kisah dan Aksara Rakyat
                 </span>
               </div>
             </div>
@@ -103,7 +103,7 @@ export function Footer() {
         {/* Bottom copyright line without decorative hr */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#C5B9A2]">
           <p>
-            &copy; {currentYear} AKAR (Arsip Kisah, Aksara, dan Ragam Budaya). Hak cipta dilindungi undang-undang.
+            &copy; {currentYear} AKAR (Arsip Kisah dan Aksara Rakyat). Hak cipta dilindungi undang-undang.
           </p>
           <p className="text-center sm:text-right">
             Prototipe demonstrasi akademik sastra lisan Sunda dan bahasa Indonesia.

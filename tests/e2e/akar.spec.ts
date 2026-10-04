@@ -82,6 +82,8 @@ test.describe("AKAR E2E Test Suite", () => {
 
   test("4. Bookmark functionality persists after reload", async ({ page }) => {
     await page.goto("/jelajah");
+    await page.evaluate(() => window.localStorage.clear());
+    await page.reload();
 
     // Click bookmark on first card
     const firstBookmarkBtn = page.locator("article button[aria-label*='Simpan bookmark']").first();

@@ -1,4 +1,4 @@
-# AKAR: Arsip Kisah, Aksara, dan Ragam Budaya
+# AKAR: Arsip Kisah dan Aksara Rakyat
 
 > "Merawat cerita, menghubungkan generasi."
 

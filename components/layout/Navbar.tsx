@@ -65,7 +65,7 @@ export function Navbar() {
         <Link
           href="/"
           className="flex items-center gap-3.5 focus-visible:outline-forest rounded-lg group"
-          aria-label="Beranda AKAR (Arsip Kisah, Aksara, dan Ragam Budaya)"
+          aria-label="Beranda AKAR (Arsip Kisah dan Aksara Rakyat)"
         >
           <div className="relative w-10 h-10 flex-shrink-0 transition-transform duration-200 group-hover:scale-105">
             <Image
@@ -82,7 +82,7 @@ export function Navbar() {
               AKAR
             </span>
             <span className="text-[11px] font-medium text-ink-muted tracking-wide mt-1 hidden sm:inline">
-              Arsip Kisah, Aksara, dan Ragam Budaya
+              Arsip Kisah dan Aksara Rakyat
             </span>
           </div>
         </Link>

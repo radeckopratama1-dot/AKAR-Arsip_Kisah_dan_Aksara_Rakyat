@@ -7,7 +7,7 @@ import { BookOpen, Compass, Users, Sparkles, ShieldAlert, ArrowRight } from "luc
 export const metadata: Metadata = {
   title: "Tentang AKAR",
   description:
-    "Mengenal AKAR (Arsip Kisah, Aksara, dan Ragam Budaya), ruang dokumentasi cerita bilingual dari Purwakarta yang mempertemukan bahasa Sunda dan bahasa Indonesia.",
+    "Mengenal AKAR (Arsip Kisah dan Aksara Rakyat), ruang dokumentasi cerita bilingual dari Purwakarta yang mempertemukan bahasa Sunda dan bahasa Indonesia.",
 };
 
 export default function TentangPage() {
@@ -22,7 +22,7 @@ export default function TentangPage() {
           Tentang AKAR: Merawat Cerita, Menghubungkan Generasi
         </h1>
         <p className="text-lg text-ink-muted leading-relaxed">
-          AKAR (Arsip Kisah, Aksara, dan Ragam Budaya) adalah ruang dokumentasi cerita lokal yang mempertemukan bahasa Sunda dan bahasa Indonesia melalui teks, rekaman suara, dan konteks budaya.
+          AKAR (Arsip Kisah dan Aksara Rakyat) adalah ruang dokumentasi cerita lokal yang mempertemukan bahasa Sunda dan bahasa Indonesia melalui teks, rekaman suara, dan konteks budaya.
         </p>
       </div>
 

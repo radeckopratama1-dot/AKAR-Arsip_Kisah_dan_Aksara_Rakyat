@@ -26,8 +26,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | AKAR (Arsip Kisah, Aksara, dan Ragam Budaya)",
-    default: "AKAR (Arsip Kisah, Aksara, dan Ragam Budaya) - Merawat Cerita, Menghubungkan Generasi",
+    template: "%s | AKAR (Arsip Kisah dan Aksara Rakyat)",
+    default: "AKAR (Arsip Kisah dan Aksara Rakyat): Merawat Cerita, Menghubungkan Generasi",
   },
   description:
     "AKAR adalah ruang dokumentasi cerita lokal yang mempertemukan bahasa Sunda dan bahasa Indonesia melalui teks, rekaman suara, dan konteks budaya di Purwakarta.",
