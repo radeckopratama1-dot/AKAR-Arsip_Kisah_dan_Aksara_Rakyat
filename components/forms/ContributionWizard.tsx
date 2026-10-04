@@ -120,9 +120,30 @@ export function ContributionWizard() {
   // Auto-save draft whenever inputs change
   useEffect(() => {
     if (titleSu || contentSu || contributorName) {
-      saveContributionDraft(getCurrentDraft());
+      saveContributionDraft({
+        id: "local-draft",
+        step: currentStep,
+        updatedAt: new Date().toISOString(),
+        titleSu,
+        titleId,
+        category,
+        region,
+        sourceLanguage,
+        summary,
+        contentSu,
+        contentId,
+        audioFileName,
+        audioFileSize,
+        glossaryNotes,
+        contributorName,
+        sourceType,
+        consentStatement,
+        allowPublicAttribution,
+        sensitiveContentExcludedDeclaration,
+      });
     }
   }, [
+    currentStep,
     titleSu,
     titleId,
     category,
@@ -139,7 +160,6 @@ export function ContributionWizard() {
     consentStatement,
     allowPublicAttribution,
     sensitiveContentExcludedDeclaration,
-    currentStep,
   ]);
 
   function focusFirstError(errorKeys: string[]) {

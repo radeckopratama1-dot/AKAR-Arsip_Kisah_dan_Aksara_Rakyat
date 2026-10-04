@@ -1,0 +1,6 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "html-css-support.enable": false,
+  "html-css-support.validate": false,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
