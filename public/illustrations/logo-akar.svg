@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width="48" height="48">
+  <!-- Soft background circle -->
+  <rect width="48" height="48" rx="12" fill="#23483D"/>
+  
+  <!-- Open Book Base -->
+  <path d="M12 32C15.5 30 19.5 30 24 32C28.5 30 32.5 30 36 32V16C32.5 14 28.5 14 24 16C19.5 14 15.5 14 12 16V32Z" stroke="#F7F3EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#18352D"/>
+  
+  <!-- Central spine -->
+  <path d="M24 16V32" stroke="#F7F3EA" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Growing Sprout / Roots Emerging from Book -->
+  <path d="M24 18C24 13 20 11 20 8C23 8 24 11 24 11C24 11 25 8 28 8C28 11 24 13 24 18Z" fill="#B08A47"/>
+  
+  <!-- Roots spreading gently downwards -->
+  <path d="M22 33C20 36 17 38 14 39" stroke="#B08A47" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M26 33C28 36 31 38 34 39" stroke="#B08A47" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M24 32V38" stroke="#B08A47" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

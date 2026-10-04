@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#E6EFEA"/>
+  <!-- River stream / irrigation canal -->
+  <path d="M0 240 C180 200 320 280 600 210 L600 400 L0 400 Z" fill="#23483D"/>
+  <path d="M0 290 C200 250 360 330 600 260 L600 400 L0 400 Z" fill="#18352D"/>
+  
+  <!-- Flowing water ripples -->
+  <path d="M80 320 C140 310 200 330 260 320" stroke="#FFFCF6" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M340 330 C400 315 460 335 520 325" stroke="#FFFCF6" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- River stones -->
+  <ellipse cx="160" cy="270" rx="35" ry="20" fill="#8A948C"/>
+  <ellipse cx="230" cy="285" rx="25" ry="15" fill="#5D665E"/>
+  <ellipse cx="440" cy="280" rx="40" ry="22" fill="#8A948C"/>
+
+  <!-- Bamboo basket / tools accent -->
+  <path d="M320 180 L350 250 L290 250 Z" fill="#B08A47" opacity="0.9"/>
+  <!-- Hoe handle leaning -->
+  <line x1="335" y1="120" x2="310" y2="240" stroke="#A44F36" stroke-width="6" stroke-linecap="round"/>
+  <rect x="298" y="235" width="28" height="14" rx="2" fill="#232B25"/>
+</svg>

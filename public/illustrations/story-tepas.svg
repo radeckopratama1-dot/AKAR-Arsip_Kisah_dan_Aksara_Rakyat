@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#F0EADB"/>
+  <!-- Veranda floor / wood planks -->
+  <path d="M0 280 L600 240 L600 400 L0 400 Z" fill="#D8CEBA"/>
+  <line x1="0" y1="310" x2="600" y2="270" stroke="#C5B9A2" stroke-width="2"/>
+  <line x1="0" y1="345" x2="600" y2="305" stroke="#C5B9A2" stroke-width="2"/>
+  <line x1="0" y1="380" x2="600" y2="340" stroke="#C5B9A2" stroke-width="2"/>
+
+  <!-- Wooden veranda pillar -->
+  <rect x="120" y="40" width="28" height="300" fill="#23483D" rx="4"/>
+  <rect x="460" y="30" width="28" height="260" fill="#23483D" rx="4"/>
+
+  <!-- Warm afternoon sun through the trees -->
+  <circle cx="300" cy="110" r="60" fill="#B08A47" opacity="0.3"/>
+  <circle cx="300" cy="110" r="40" fill="#B08A47" opacity="0.5"/>
+
+  <!-- Traditional tin tea mug on table -->
+  <rect x="260" y="240" width="48" height="40" rx="6" fill="#A44F36"/>
+  <path d="M308 248 C318 248 318 272 308 272" stroke="#A44F36" stroke-width="5" fill="none"/>
+  <!-- Tea steam -->
+  <path d="M275 230 C270 215 285 205 280 190" stroke="#B08A47" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M290 230 C285 215 300 205 295 190" stroke="#B08A47" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

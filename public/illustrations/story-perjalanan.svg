@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#E2EBE5"/>
+  <!-- Mountain ridges of Wanayasa -->
+  <path d="M0 200 Q140 120 280 180 T600 150 L600 400 L0 400 Z" fill="#356354"/>
+  <path d="M0 240 Q180 170 360 230 T600 210 L600 400 L0 400 Z" fill="#23483D"/>
+
+  <!-- Situ Wanayasa calm lake water -->
+  <path d="M0 280 C150 270 450 270 600 280 L600 400 L0 400 Z" fill="#18352D"/>
+  <!-- Small island in lake center with pine trees -->
+  <ellipse cx="300" cy="300" rx="90" ry="25" fill="#8D6E34"/>
+  <polygon points="270,300 280,240 290,300" fill="#23483D"/>
+  <polygon points="290,300 300,230 310,300" fill="#18352D"/>
+  <polygon points="310,300 320,245 330,300" fill="#356354"/>
+
+  <!-- Water reflection lines -->
+  <line x1="120" y1="335" x2="240" y2="335" stroke="#F7F3EA" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  <line x1="360" y1="345" x2="480" y2="345" stroke="#F7F3EA" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="100%" height="100%">
+  <!-- Soft background container -->
+  <rect width="640" height="480" rx="24" fill="#FFFCF6"/>
+  <rect x="12" y="12" width="616" height="456" rx="20" stroke="#F2EDE1" stroke-width="2" fill="none"/>
+
+  <!-- Left page: Bahasa Sunda -->
+  <rect x="40" y="50" width="260" height="380" rx="16" fill="#F7F3EA"/>
+  <!-- Tag -->
+  <rect x="64" y="74" width="70" height="22" rx="6" fill="#23483D"/>
+  <text x="74" y="89" fill="#FFFCF6" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Basa Sunda</text>
+  <!-- Text lines -->
+  <rect x="64" y="115" width="190" height="14" rx="4" fill="#23483D"/>
+  <rect x="64" y="138" width="160" height="12" rx="3" fill="#5D665E"/>
+  <rect x="64" y="158" width="200" height="12" rx="3" fill="#5D665E"/>
+  <rect x="64" y="178" width="180" height="12" rx="3" fill="#5D665E"/>
+  <!-- Highlighted glossary word -->
+  <rect x="64" y="215" width="200" height="48" rx="8" fill="#F5E9E4"/>
+  <text x="76" y="235" fill="#A44F36" font-family="Georgia, serif" font-size="13" font-style="italic" font-weight="bold">hanca tatanen</text>
+  <text x="76" y="252" fill="#5D665E" font-family="system-ui, sans-serif" font-size="11">Istilah kabudayaan lokal</text>
+
+  <rect x="64" y="280" width="170" height="12" rx="3" fill="#5D665E"/>
+  <rect x="64" y="300" width="210" height="12" rx="3" fill="#5D665E"/>
+  <rect x="64" y="320" width="150" height="12" rx="3" fill="#5D665E"/>
+
+  <!-- Audio playback bar preview -->
+  <rect x="64" y="360" width="212" height="42" rx="10" fill="#23483D"/>
+  <circle cx="86" cy="381" r="12" fill="#B08A47"/>
+  <polygon points="83,375 92,381 83,387" fill="#18352D"/>
+  <rect x="110" y="378" width="110" height="6" rx="3" fill="#356354"/>
+  <rect x="110" y="378" width="45" height="6" rx="3" fill="#B08A47"/>
+  <text x="235" y="385" fill="#F7F3EA" font-family="monospace" font-size="10">01:12</text>
+
+  <!-- Right page: Bahasa Indonesia -->
+  <rect x="340" y="50" width="260" height="380" rx="16" fill="#F7F3EA"/>
+  <!-- Tag -->
+  <rect x="364" y="74" width="90" height="22" rx="6" fill="#A44F36"/>
+  <text x="374" y="89" fill="#FFFCF6" font-family="system-ui, sans-serif" font-size="11" font-weight="600">B. Indonesia</text>
+  <!-- Text lines -->
+  <rect x="364" y="115" width="200" height="14" rx="4" fill="#232B25"/>
+  <rect x="364" y="138" width="180" height="12" rx="3" fill="#5D665E"/>
+  <rect x="364" y="158" width="190" height="12" rx="3" fill="#5D665E"/>
+  <rect x="364" y="178" width="160" height="12" rx="3" fill="#5D665E"/>
+
+  <!-- Aligned translation block -->
+  <rect x="364" y="215" width="210" height="48" rx="8" fill="#F6F1E6"/>
+  <text x="376" y="235" fill="#23483D" font-family="Georgia, serif" font-size="13" font-weight="bold">makna kontekstual</text>
+  <text x="376" y="252" fill="#5D665E" font-family="system-ui, sans-serif" font-size="11">Dipadankan dengan cermat</text>
+
+  <rect x="364" y="280" width="190" height="12" rx="3" fill="#5D665E"/>
+  <rect x="364" y="300" width="180" height="12" rx="3" fill="#5D665E"/>
+  <rect x="364" y="320" width="160" height="12" rx="3" fill="#5D665E"/>
+
+  <!-- Synchronized indicator badge -->
+  <rect x="364" y="360" width="212" height="42" rx="10" fill="#F2EDE1"/>
+  <text x="380" y="385" fill="#23483D" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Keselarasan Paragraf Aktif</text>
+</svg>
