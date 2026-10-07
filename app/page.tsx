@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { BookOpen, Volume2, Sparkles, Shield, ArrowRight, PlusCircle, CheckCircle } from "lucide-react";
 import { storyRepository } from "@/lib/repositories/storyRepository";
 import { StoryCard } from "@/components/stories/StoryCard";
+import { HeroStoryCarousel } from "@/components/stories/HeroStoryCarousel";
 
 export default async function HomePage() {
   const stories = await storyRepository.getAll();
@@ -62,17 +62,9 @@ export default async function HomePage() {
               </div>
             </div>
 
-            {/* Visual Column: Bilingual Reader Illustration */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="relative w-full max-w-lg aspect-[4/3] rounded-card overflow-hidden shadow-lifted border border-[#23483D]/10 bg-surface">
-                <Image
-                  src="/illustrations/hero-bilingual.svg"
-                  alt="Pratinjau antarmuka pembaca cerita dua bahasa AKAR dengan teks Sunda dan Indonesia yang saling bersanding."
-                  fill
-                  priority
-                  className="object-cover"
-                />
-              </div>
+            {/* Visual Column: Interactive Hero Story Carousel */}
+            <div className="lg:col-span-5 flex justify-center w-full">
+              <HeroStoryCarousel stories={stories} />
             </div>
           </div>
         </div>
