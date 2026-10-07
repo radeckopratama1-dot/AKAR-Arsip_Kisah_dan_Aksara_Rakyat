@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Story } from "@/types/story";
 import { GlossaryTerm } from "@/types/glossary";
 import { ReadingMode, getReaderPreferences, saveReaderPreferences } from "@/lib/storage/preferences";
@@ -147,6 +148,28 @@ export function StoryReaderClient({ story, glossaryTerms }: StoryReaderClientPro
         <p className="text-base text-ink-muted leading-relaxed max-w-3xl pt-2">
           {story.summaryId}
         </p>
+
+        {/* Story Photo Banner (hidden in focus mode) */}
+        {!focusMode && story.cover && (
+          <figure className="mt-4 rounded-card overflow-hidden border border-[#23483D]/10 bg-surface shadow-soft">
+            <div className="relative aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden">
+              <Image
+                src={story.cover.src}
+                alt={story.cover.alt}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 1200px"
+              />
+            </div>
+            {story.cover.attribution && (
+              <figcaption className="px-4 py-2.5 bg-background/50 border-t border-[#23483D]/5 text-xs text-ink-muted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+                <span>{story.cover.alt}</span>
+                <span className="italic text-ink-muted shrink-0">{story.cover.attribution}</span>
+              </figcaption>
+            )}
+          </figure>
+        )}
       </header>
 
       {/* Audio Player Component */}

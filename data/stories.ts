@@ -13,9 +13,9 @@ export const SAMPLE_STORIES: Story[] = [
     region: "Kecamatan Pasawahan, Purwakarta",
     readingTimeMinutes: 3,
     cover: {
-      src: "/illustrations/story-kebun.svg",
-      alt: "Ilustrasi kebun cengkih di lereng bukit Pasawahan dengan rimbun dedaunan.",
-      attribution: "Ilustrasi digital prototipe AKAR",
+      src: "/images/stories/story-kebun.jpg",
+      alt: "Kuncup bunga cengkih (Syzygium aromaticum) yang mulai matang dan siap dipetik di dahan pohon rimbun.",
+      attribution: "Foto: tinofrey / Wikimedia Commons (CC BY-SA 3.0)",
     },
     paragraphs: [
       {
@@ -83,9 +83,9 @@ export const SAMPLE_STORIES: Story[] = [
     region: "Kecamatan Wanayasa, Purwakarta",
     readingTimeMinutes: 4,
     cover: {
-      src: "/illustrations/story-tepas.svg",
-      alt: "Ilustrasi beranda rumah kayu tradisional dengan cangkir teh dan pemandangan pekarangan.",
-      attribution: "Ilustrasi digital prototipe AKAR",
+      src: "/images/stories/story-tepas.jpg",
+      alt: "Rumah panggung kayu tradisional di Kampung Naga, Tasikmalaya, Jawa Barat berlatar perbukitan hijau dan sawah.",
+      attribution: "Foto: Abdulrohmatt / Wikimedia Commons (CC BY-SA 4.0)",
     },
     paragraphs: [
       {
@@ -138,9 +138,9 @@ export const SAMPLE_STORIES: Story[] = [
     region: "Kecamatan Babakancikao, Purwakarta",
     readingTimeMinutes: 3,
     cover: {
-      src: "/illustrations/story-gotong-royong.svg",
-      alt: "Ilustrasi warga bersama-sama membersihkan batu dan aliran air sungai kecil.",
-      attribution: "Ilustrasi digital prototipe AKAR",
+      src: "/images/stories/story-gotong-royong.jpg",
+      alt: "Warga pedesaan bersama-sama bergotong royong dengan penuh kebersamaan dan kekeluargaan.",
+      attribution: "Foto: Adyagustian / Wikimedia Commons (CC BY-SA 4.0)",
     },
     paragraphs: [
       {
@@ -208,9 +208,9 @@ export const SAMPLE_STORIES: Story[] = [
     region: "Kecamatan Purwakarta Kota",
     readingTimeMinutes: 3,
     cover: {
-      src: "/illustrations/story-pasar.svg",
-      alt: "Ilustrasi suasana pasar tradisional dengan deretan sayuran segar dan wadah daun pisang.",
-      attribution: "Ilustrasi digital prototipe AKAR",
+      src: "/images/stories/story-pasar.jpg",
+      alt: "Pedagang sayuran paruh baya tersenyum ramah di samping bakul bambu aneka sayuran segar di pasar tradisional.",
+      attribution: "Foto: Nafisaacdr / Wikimedia Commons (CC BY-SA 4.0)",
     },
     paragraphs: [
       {
@@ -263,9 +263,9 @@ export const SAMPLE_STORIES: Story[] = [
     region: "Kecamatan Plered, Purwakarta",
     readingTimeMinutes: 4,
     cover: {
-      src: "/illustrations/story-benda.svg",
-      alt: "Ilustrasi bakul bambu tradisional dengan tekstur anyaman halus dan warna keemasan.",
-      attribution: "Ilustrasi digital prototipe AKAR",
+      src: "/images/stories/story-benda.jpg",
+      alt: "Perajin perempuan duduk di teras rumah panggung tekun menganyam bilah bambu menjadi bakul nasi (boboko).",
+      attribution: "Foto: Abdulrohmatt / Wikimedia Commons (CC BY-SA 4.0)",
     },
     paragraphs: [
       {
@@ -318,9 +318,9 @@ export const SAMPLE_STORIES: Story[] = [
     region: "Kecamatan Wanayasa, Purwakarta",
     readingTimeMinutes: 4,
     cover: {
-      src: "/illustrations/story-perjalanan.svg",
-      alt: "Ilustrasi danau Situ Wanayasa berlatar bukit pinus dan pulau kecil di tengah air tenang.",
-      attribution: "Ilustrasi digital prototipe AKAR",
+      src: "/images/stories/story-perjalanan.jpg",
+      alt: "Pemandangan Situ Wanayasa Purwakarta dengan pulau rimbun di tengah danau dan kabut pagi di perbukitan.",
+      attribution: "Foto: Zaky FS / Wikimedia Commons (CC BY-SA 4.0)",
     },
     paragraphs: [
       {
