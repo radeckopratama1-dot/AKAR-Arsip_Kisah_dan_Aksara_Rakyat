@@ -2,6 +2,7 @@
   "name": "akar-arsip-budaya",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@12.9.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "3.9.1",
+    "@vercel/analytics": "^2.0.1",
     "clsx": "2.1.1",
     "lucide-react": "0.475.0",
     "next": "15.1.7",
